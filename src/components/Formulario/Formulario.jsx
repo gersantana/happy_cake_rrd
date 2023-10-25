@@ -14,7 +14,7 @@ function Formulario() {
       alert("Gracias por contactarnos, hemos recibido tu mensaje")
       setText("")
       setEmail("")
-      navigate("/")
+      navigate("/happy_cake_rrd")
   }
   return (
     <Form className='w-75 m-auto mt-5' onSubmit={enviar}>
