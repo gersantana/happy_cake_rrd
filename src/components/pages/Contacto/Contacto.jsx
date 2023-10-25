@@ -1,7 +1,20 @@
-const Contacto = () => {
-    return (
-        <div>soy la pagina contacto</div>
-    )
-}
+import Formulario from "../../Formulario/Formulario";
 
-export default Contacto
+
+const Contacto = () => {
+	return (
+		<div>
+			{/* <form action="">
+				<label htmlFor="email">Tu Email</label>
+				<input type="email" name="" id="email" />
+				<label htmlFor="text">Cuéntanos</label>
+				<input type="text" id="text" />
+                <button>Enviar</button>
+			</form> */}
+            <Formulario/> 
+		</div>
+	);
+};
+
+export default Contacto;
+

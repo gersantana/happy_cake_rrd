@@ -1,0 +1,14 @@
+.not_found_container {
+	padding: 100px 20px;
+
+	text-align: center;
+}
+
+.not_found_container p {
+	font-size: 70px;
+	font-weight: bold;
+}
+
+.not_found_container a {
+	font-size: 20px;
+}

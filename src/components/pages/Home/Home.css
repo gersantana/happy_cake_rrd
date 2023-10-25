@@ -1,0 +1,23 @@
+.home_container {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.home_container h1 {
+    margin:50px 0;
+}
+
+.home_container p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.img_container {
+    max-width: 20rem;
+}
+span {
+    color: rgb(184, 111, 22);
+    font-size: larger;
+    font-weight: bold;
+}
